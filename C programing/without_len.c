@@ -1,18 +1,17 @@
 #include <stdio.h>
-int main ()
+int main()
 {
- char word [100];
- int i = 0 ;
- int length = 0;
+    char word[100];
+    int i = 0;
+    int length = 0;
     printf("Enter the Sentence: ");
-    
-   scanf("%s",word);
 
-    while (word [i] != '\0')
+    scanf("%s", word);
+
+    while (word[i] != '\0')
     {
-        length ++;
+        length++;
         i++;
     }
-    printf ("Length is : %d\n",length);
-
+    printf("Length is : %d\n", length);
 }
