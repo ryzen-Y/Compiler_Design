@@ -5,7 +5,7 @@ int main ()
  int i = 0 ;
  int length = 0;
     printf("Enter the Sentence: ");
-    gets (word);
+    
    scanf("%s",word);
 
     while (word [i] != '\0')
