@@ -1,28 +1,29 @@
 # Compiler Design Practice
 
-Welcome to a hands-on collection of compiler design exercises built in C and Lex/Flex. This repository is a compact playground for exploring core concepts such as string handling, tokenization, pattern matching, and language recognition.
+Welcome to a hands-on collection of **Compiler Design** exercises built using **C, Lex/Flex, and Bison**. This repository is a compact playground for exploring core compiler concepts such as string handling, tokenization, pattern matching, lexical analysis, syntax analysis, parsing, and grammar processing.
 
-## ✨ What’s Inside?
+## ✨ What's Inside?
 
-- C programing/: small C programs for string manipulation, palindrome checks, token processing, and related practice problems.
-- Lex/: Lex source files that demonstrate lexical analysis, regular expressions, and simple lexer behavior.
+- **C Programming/**: Small C programs for string manipulation, palindrome checks, token processing, and related practice problems.
+- **Lex/**: Lex/Flex source files demonstrating lexical analysis, regular expressions, pattern matching, and simple lexer behavior.
+- **Bison/**: Bison source files demonstrating grammar rules, syntax analysis, parsing, and integration with Lex/Flex.
 
-## 🛠️ Tools You’ll Need
+## 🛠️ Tools You'll Need
 
-- GCC compiler
-- Flex and Bison tools
+- **GCC** compiler
+- **Flex** (Fast Lexical Analyzer Generator)
+- **Bison** (GNU Parser Generator)
 - A terminal to compile and run the programs
 
 ## ▶️ How to Run
 
 ### C Programs
 
-Compile and run a sample file like this:
+Compile and run a C program:
 
 ```bash
 gcc compare.c -o compare
 ./compare
-```
 
 ### Lex Programs
 
